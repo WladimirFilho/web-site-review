@@ -4,12 +4,14 @@ import ModalLogin from "../pages/Login";
 
 export default function Navigation() {
   return (
-    <div className="fullWithWrapper w-full bg-red-500 flex justify-center sticky top-0 z-30">
-      <div className="w-2/3 h-20 bg-slate-800 content-center">
+    <div className="fullWithWrapper w-full bg-gray-900 flex justify-center sticky top-0 z-30">
+      <div className="w-full mx-16 h-20 bg-gray-900 content-center">
         <ul className="flex flex-row justify-between content-center items-center h-16">
           <div className="">
             <Link to="/">
-              <li className=" text-white">Movie Review</li>
+              <li className=" text-white font-semibold text-5xl">
+                Movie Review
+              </li>
             </Link>
           </div>
           <div className="flex flex-row">

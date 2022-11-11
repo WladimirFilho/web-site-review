@@ -9,12 +9,14 @@ import HeroBar from "./components/HeroBar";
 import SearchBar from "./components/SearchBar";
 import Footer from "./components/Footer";
 import ModalLogin from "./components/ModalLogin";
+import FilterBar from "./components/FilterBar";
 
 function App() {
   return (
     <div>
       <HeroBar />
       <Navigation />
+      <FilterBar />
       <Routes>
         <Route exact path="/" element={<HomePage />} />
         <Route exact path="/allmovies" element={<AllMovies />} />
